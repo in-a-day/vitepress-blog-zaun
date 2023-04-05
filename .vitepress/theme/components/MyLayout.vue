@@ -4,15 +4,15 @@
       <Title />
       <Category />
     </template>
-    <template #doc-after>
-      <Comments />
-    </template>
+    <!-- <template #doc-after> -->
+    <!--   <Comments /> -->
+    <!-- </template> -->
     <!-- Home slot-->
     <template #home-hero-before><HomeHero /> </template>
     <template #home-features-after> <Page /></template>
   </Layout>
   <!-- copywright -->
-  <CopyWright />
+  <!-- <CopyWright /> -->
 </template>
 <script lang="ts" setup>
 import DefaultTheme from "vitepress/theme";

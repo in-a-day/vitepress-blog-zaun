@@ -1,6 +1,6 @@
 <template>
   <footer>
-    Powered by
+    Theme by
     <a href="https://github.com/clark-cui/" target="_blank" title="作者"
       >clark-cui</a
     >

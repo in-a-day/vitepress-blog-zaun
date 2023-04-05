@@ -1,6 +1,6 @@
 <template>
-  <ShareCard />
-  <h1 class="blog-title">Blogs</h1>
+  <!-- <ShareCard /> -->
+  <!-- <h1 class="blog-title">Blogs</h1> -->
   <div class="blogList">
     <a class="blog" v-for="item in posts" :href="withBase(item.regularPath)">
       <div class="title">{{ item.frontMatter.title }}</div>
@@ -136,7 +136,7 @@ const transDate = (date: string) => {
 }
 .blogList {
   padding: 30px 0;
-  padding-bottom: 120px;
+  padding-bottom: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
