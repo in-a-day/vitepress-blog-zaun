@@ -8,13 +8,13 @@ import { Feed } from "feed";
 
 const DOMAIN = "https://dszdsxc.com";
 const AUTHOR = {
-  name: "nichijou",
+  name: "zabbits",
   email: "zhangbshu@gmail.com",
   link: DOMAIN,
 };
 const OPTIONS: FeedOptions = {
-  title: "nichijou",
-  description: "nichijou' Blog",
+  title: "zabbits",
+  description: "zabbits' Blog",
   id: `${DOMAIN}/`,
   link: `${DOMAIN}/`,
   copyright: "MIT License",
